@@ -1,0 +1,70 @@
+---
+# Korean Translation - good777LUCKY
+version: "1.2.7"
+
+prefix: "FuturePlots > "
+
+no.plotworld: "이 서버에는 plot 월드가 없습니다."
+not.in.world: "당신은 plot 월드에 있지 않습니다."
+not.in.plot: "당신은 plot에 있지 않습니다."
+not.a.owner: "이 행동은 오직 plot의 소유자만 할 수 있습니다."
+
+plot.teleport: "당신의 plot으로 순간이동되었습니다."
+plot.claim.already: "이 plot은 이미 점유되었습니다."
+plot.claim: "방금 plot을 점유하였습니다."
+plot.clear: "plot이 초기화되었습니다."
+plot.delete: "plot이 삭제되었습니다."
+plot.max: "이미 가질 수 있는 최대 plot의 개수를 넘으셨습니다."
+plot.enter.owned: "%1\n%2"
+plot.enter.free: "%1\n개방된 plot"
+plot.help.title: "FuturePlots 명령어:"
+plot.help.text: "- %1"
+plot.help.page: "페이지 %1 /%2"
+plot.info.title: "- plot 정보 -"
+plot.info.text: "소유자: %1\nID: %2\n도우미: %3\n금지된 플레이어: %4\n구성원: %5"
+plot.homes.title: "당신의 plot:"
+plot.homes.text: "- %2 (%1)"
+plot.world.required: "당신의 plot에 가려면 월드 이름과 plot 번호를 입력하세요."
+plot.world.not.exists: "이 월드는 존재하지 않습니다."
+plot.world.exists: "이 월드는 이미 존재합니다."
+plot.dispose: "plot이 잠금 해제되었습니다."
+plot.kick: "당신은 플레이어 %1을(를) plot에서 내보냈습니다."
+plot.kick.target: "plot 소유자가 당신을 plot에서 내보냈습니다."
+plot.kick.error: "이 플레이어는 plot에 있지 않습니다."
+plot.kick.bypass: "이 플레이어는 플롯에서 쫓겨날 수 없습니다."
+plot.setowner: "당신은 %1에 플롯을 주었다."
+plot.setowner.target: "ID %1이 있는 플롯이 주어졌습니다."
+plot.setowner.target.max: "이 플레이어는 이미 플롯의 최대 수를 가지고있다."
+plot.setowner.target.not.online: "이 플레이어는 그에게 음모를 제공하기 위해 온라인해야합니다."
+plot.home.set: "플롯의 새 생성 지점을 설정했습니다."
+plot.home.delete: "플롯의 생성 점을 재설정했습니다."
+plot.erode: "줄거리가 가려졌다."
+
+helper.added: "플레이어 %1(이)가 plot의 도우미로 추가되었습니다."
+helper.removed: "플레이어 %1(이)가 plot의 도우미에서 삭제되었습니다."
+helper.exists: "이 플레이어는 이미 plot의 도우미입니다."
+helper.not.exists: "이 플레이어는 plot의 도우미가 아닙니다."
+
+deny.added: "플레이어 %1(이)가 plot에서 금지되었습니다."
+deny.removed: "플레이어 %1(이)가 plot에 다시 들어갈 수 있습니다."
+deny.exists: "플레이어는 이미 plot에서 금지되어 있습니다."
+deny.not.exists: "이 플레이어는 plot에서 금지되지 않았습니다."
+deny.bypass: "이 플레이어는 숙소에서 금지될 수 없습니다."
+
+member.added: "플레이어 %1(이)가 plot의 구성원으로 추가되었습니다."
+member.removed: "플레이어 %1(이)가 plot의 구성원에서 삭제되었습니다."
+member.exists: "이 플레이어는 이미 plot의 구성원입니다."
+member.not.exists: "이 플레이어는 plot의 구성원이 아닙니다."
+
+generate.world.required: "월드 이름을 입력하세요."
+generate.world.exists: "이 월드는 이미 존재합니다."
+generate.world.success: "월드 %1(이)가 생성되고 있습니다..."
+
+has.no.plot: "당신은 plot이 없습니다."
+has.no.plot.world: "이 월드에는 당신의 plot이 없습니다."
+has.no.plot.number: "당신은 %1번 plot을 소유하고 있지 않습니다."
+
+economy.no.money: "이 행동을 할 충분한 돈이 없습니다."
+
+player.not.found: "이 플레이어를 찾을 수 없습니다."
+...

@@ -1,0 +1,20 @@
+name: FuturePlots
+main: tim03we.futureplots.FuturePlots
+api: 1.0.9
+author: tim03we
+version: 1.4.4
+description: A NukkitX based plot plugin
+softdepend:
+  - EconomyAPI
+  - DbLib
+
+permissions:
+  futureplots.command.generate:
+    description: "You can generate plot world with this permission."
+    default: op
+  futureplots.plots.unlimited:
+    description: "Claim as many plots as you want."
+    default: op
+  futureplots.economy.bypass:
+    description: "Avoid paying when Economy is activated."
+    default: op

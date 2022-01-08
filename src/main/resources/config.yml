@@ -1,0 +1,64 @@
+---
+# Do not change the version, this can lead to deletion of the file
+version: "1.2.2"
+
+# Available languages:
+# eng (English), deu (German), kor (Korean), chs (Chinese)
+lang: "eng"
+
+# Available providers: yaml, mysql, sqlite
+provider: "yaml"
+
+# Automatic saving of all plots
+# Supported providers: yaml
+auto-save:
+  use: true
+  # In seconds
+  interval: 180
+
+# NOT COMPLETED!
+# Should the UUID be used to keep the plot when changing the player name
+uuid: false
+
+# MySQL connection data
+mysql:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "ThisIsMyStrongPassword"
+  database: "futureplots"
+
+# To be able to locate an error correction more precisely
+debug: false
+
+# How many plots a player can own
+max-plots: 2
+
+# Determine if you should be teleported to the plot border when the plot is claimed
+teleport-on-claim: true
+
+# Whether the popup should appear when you enter a plot
+show-popup: true
+
+# Decide here whether Economy should be used for claiming, emptying and deleting plots
+economy: false
+
+# Here you find the plot configurations,
+# how the plot world should look like later, when the world is generated for the first time
+default-settings:
+  plotSize: 32
+  roadBlock: "5:0"
+  wall:
+    unclaimed: "44:0"
+    claimed: "44:1"
+  bottomBlock: "7:0"
+  plotFloorBlock: "2:0"
+  plotFillBlock: "3:0"
+  roadWidth: 7
+  groundHeight: 64
+  price:
+    claim: 500
+    clear: 300
+    delete: 200
+    dispose: 500
+...
